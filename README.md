@@ -1,8 +1,8 @@
-# Babel Runtime for [Serverless](http://serverless.com)
+# Babel Runtime for [Serverless](http://serverless.com) Nodejs12.x
 
 [![serverless](http://public.serverless.com/badges/v3.svg)](http://www.serverless.com)
 
-## Features 
+## Features
  *  **Runs locally and deploys functions written in ES2015 syntax (via [Babel](https://babeljs.io/))**
  *  *Classic* and *Modern JS Style* handlers
  *  Browserifies, minifies your functions on deployment
@@ -106,7 +106,7 @@ Example Babel Runtime configuration with default values:
   "runtime": "babel",
   "custom": {
     "runtime": {
-      "babel": { 
+      "babel": {
       	"presets": ["es2015"]
       },
       "handlerExt": "js",
